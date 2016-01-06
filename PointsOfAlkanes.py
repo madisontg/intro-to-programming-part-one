@@ -1,0 +1,27 @@
+# Madison Thorburn-Gundlach
+# Due October 1, 2015
+# reproduce a given table (on pg 223)
+
+title = "{:<}".format("Melting and Boiling Points of Alkanes")
+name_title = "{:<12}".format("Name")
+melting_point_title = "{:<26}".format("Melting Point (deg C)")
+boiling_point_title = "{:<}".format("Boiling Point (deg C)")
+methane_name = "{:<12}".format("Methane")
+methane_melting = "{:<25}".format("-162")
+methane_boiling = "{:<}".format("-183")
+ethane_name = "{:<12}".format("Ethane")
+ethane_melting = "{:<25}".format("-89")
+ethane_boiling = "{:<}".format("-172")
+propane_name = "{:<12}".format("Propane")
+propane_melting = "{:<25}".format("-42")
+propane_boiling = "{:<}".format("-188")
+butane_name = "{:<12}".format("Butane")
+butane_melting = "{:<25}".format("0.5")
+butane_boiling = "{:<}".format("-135")
+
+print(title)
+print(name_title, melting_point_title, boiling_point_title)
+print(methane_name, methane_melting, methane_boiling)
+print(ethane_name, ethane_melting, ethane_boiling)
+print(propane_name, propane_melting, propane_boiling)
+print(butane_name, butane_melting, butane_boiling)
